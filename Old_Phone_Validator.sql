@@ -1,8 +1,5 @@
-    -- COURSE: CSCE 4355.400
-    -- NAME: Chimara Okeke
-    -- EUID: ceo0079
-    -- DATE: 2/5/2023
-    -- Homework 3  Coding IF-THEN-ELSE
+-- Uses IF-ELSE logic
+   -- DATE: 2/5/2023
 
     DO $GO$
     DECLARE

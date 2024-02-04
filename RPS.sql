@@ -1,6 +1,5 @@
-    -- COURSE: CSCE 4355.400
-    -- NAME: Chimara Okeke
-    -- EUID: ceo0079
+-- Uses tables to simulate a game of rock paper scissors ✂
+-- Date: 1/29/2024
     
     
     CREATE SCHEMA IF NOT EXISTS rps;

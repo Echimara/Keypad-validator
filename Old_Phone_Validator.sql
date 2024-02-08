@@ -1,6 +1,6 @@
 -- Uses IF-ELSE logic
 -- What it does do? Checks to see if a certain character or alphabet maps to a number of the phone pad 📱 
--- DATE: 2/5/2023
+-- DATE: 2/5/2024
 
     DO $GO$
     DECLARE

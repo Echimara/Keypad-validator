@@ -1,8 +1,5 @@
--- COURSE: CSCE 4355.400
--- NAME: Chimara Okeke
--- EUID: ceo0079
 -- DATE: 2/12/2024
--- Assignment: Create proc_oddval
+-- Creating A Working Procedure in SQL
 
 
 -- RUBRIC --

@@ -1,6 +1,6 @@
--- What it does do? Checks to see if a certain character or alphabet maps to a number of the phone pad 📱 
--- Uses IF-ELSE logic
 -- DATE: 2/5/2024
+-- Uses IF-ELSE logic
+-- What it does do? Checks to see if a certain character or alphabet maps to a number of the phone pad 📱 
 
     DO $GO$
     DECLARE

@@ -1,5 +1,5 @@
--- Uses tables to simulate a game of rock paper scissors ✂
 -- Date: 1/29/2024
+-- Uses tables to simulate a game of rock paper scissors ✂
     
     
     CREATE SCHEMA IF NOT EXISTS rps;

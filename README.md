@@ -1,4 +1,4 @@
-# Phone Validator
+# Keypad-validator
 
 Uses IF-ELSE logic to see if a certain character you input maps to a character found on a standard phone pad e.g you type 4 which is found on phone pads 📱 
 

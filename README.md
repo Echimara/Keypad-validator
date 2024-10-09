@@ -1,4 +1,4 @@
-# Keypad-validator
+## Keypad-validator
 
 Uses IF-ELSE logic to see if a certain character you input maps to a character found on a standard '60s-era keypad
 
@@ -8,6 +8,6 @@ Uses IF-ELSE logic to see if a certain character you input maps to a character f
 </p>
 
 
-# Fun Fact
+## Fun Fact
 
 <li>SQL is an imperative programming language i.e. you git the commands in order</li>

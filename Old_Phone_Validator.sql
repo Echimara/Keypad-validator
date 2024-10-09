@@ -1,6 +1,6 @@
 -- DATE: 2/5/2024
 -- Uses IF-ELSE logic
--- Uses IF-ELSE logic to see if a certain character or alphabet you input maps to a number found on a standard phone pad 📱 
+-- Uses IF-ELSE logic to see if a certain character you input maps to a character found on a standard phone pad e.g you type 4 which is found on phone pads
 
     DO $GO$
     DECLARE

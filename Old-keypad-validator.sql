@@ -1,6 +1,4 @@
--- DATE: 2/5/2024
--- Uses IF-ELSE logic
--- Uses IF-ELSE logic to see if a certain character you input maps to a character found on a standard phone pad e.g you type 4 which is found on phone pads
+-- This sql script uses IF-ELSE logic to see if a certain character you input maps to a character found on a '60s-era keypad e.g you type 4 which would be found on phone pads
 
     DO $GO$
     DECLARE
@@ -68,12 +66,8 @@
 
 
 
---* RUBRIC *--
-
 /*
-    This is an old, tried & true, programming problem out of the stone ages.  When I was young,
-    I had to *walk* to school... two miles!  And my telephone didn't do text.  When we finally
-    advanced to digital dialing, the keypad looked like this:
+    Here is what the typical '60s-era keypad might look like: 
 
 
      1       2       3
@@ -87,51 +81,10 @@
 
      *       0       #
 
-     As you can see, it lacked 'Q'.  We could have lived with that; however, it also lacked 'Z',
-     so we couldn't spell "pizza"!
+     As you can see, it lacked 'Q' and also 'Z', meaning we couldn't spell "pizza" back then!
 
-     We have since fixed that issue, but *this* assignment will use the old, '60s-era keypad.
+     The above PostgreSQL transaction block declares an uppercase letter as CHAR(1) and maps that letter
+     to its corresponding digit on the old keypad.
 
-     We will write a PostgreSQL transaction block (or "execution block", or "annonymous program";
-     they're the same) that will declare an uppercase letter as CHAR(1) and will map that letter
-     to its corresponding digit on my old keypad.
-
-     If the defined CHAR(1) isn't one of the letters you see above, output a '$' as an error code.
-
-     Some requirements: You must use "IF" logic.  *Any* D.B. programmer would drop the values into
-     a table and write a SELECT statement... but this program is about "IF" logic.  Do not use the
-     CASE statement (in C, the switch() logic).  Also, don't use ASCII arithmetic, either.  The
-     assignment is to demonstrate clean "IF" logic.
-*/
-
-/*
-    Now, *that* is brutal! I am using 27 comparisons!  Even worse, I keep searching
-    after I find it.  Your assignment is to do it using fewer comparisons.
-
-        IF lvLetter = 'A' OR lvLetter = 'B' OR lvLetter = 'C'
-
-    ... is three comparisons.  Although, we will count:
-
-        IF lvInput NOT IN ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
-                           'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y')
-
-    ... as one comparison.  (Likely, it's more... probably a minimum of three is my
-    guess.)  Counting the SQL "IN" as one, you can stay within 4 or fewer comparisons
-    (and I don't think "fewer" than 4 is possible.)
-
-    Hint: there are eight values in the range... all sorted.  Use a simple binary approach.
-
-    Some advice: there are four relational operators: '<', '>', '<=', '>=' choose one
-    and stick with it.  Trying to use ELSIF will be tricky because there isn't
-    anything like "THENIF", so your tree will have non-symmetric syntax.
-
-    If you cannot get it running using binary logic, you may use ladder logic
-    to solve in seven comparisons (eight, counting validation.)  More comparisons will
-    reduce the grade.
-
-    The output should be of the form:
-
-    RAISE NOTICE E'\nThe letter % maps to % on the pad.\n\n', lvLetter, lvDigit;
-
-    (It may vary some, but that's a general idea.)
+     If the defined CHAR(1) isn't one of the letters you see above, there is an error code output '$'.
 */

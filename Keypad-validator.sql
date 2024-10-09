@@ -1,3 +1,4 @@
+-- Author: Chi
 -- This sql script uses IF-ELSE logic to see if a certain character you input maps to a character found on a '60s-era keypad e.g you type 4 which would be found on phone pads
 
     DO $GO$
